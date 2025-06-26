@@ -1,0 +1,239 @@
+@media (max-width: 1280px) {
+.about-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 15px;
+  }
+ .about-text, .about-video {
+    flex: 1 1 100%;
+    padding: 10px;
+  }
+      .about-text:hover {
+      transform: rotateY(0deg);
+    }
+
+      .about-video:hover {
+      transform: rotateY(3deg);
+    }
+     .about-video video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .enquiry-section {
+  padding: 80px 30px;
+}
+
+.carousel-wrapper{
+  width: 80%;
+}
+    }
+
+@media (max-width: 1160px) {
+.image-cube {
+  
+  width: 300px;
+  height: 300px;
+  
+}
+.front  { transform: rotateY(  0deg) translateZ(150px); }
+.back   { transform: rotateY(180deg) translateZ(150px); }
+.left   { transform: rotateY( -90deg) translateZ(150px); }
+.right  { transform: rotateY(  90deg) translateZ(150px); }
+.audience-text h2 {
+    font-size: 2.1rem;
+  }
+.enquiry-container{
+        flex-direction: column;
+      }
+      .enquiry-form{
+        max-width: 100%;
+      }
+      
+}
+@media (max-width: 1040px) {
+      nav {
+        display: none;
+      }
+      .ham-menu {
+        display: block;
+      }
+ .audience-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .image-cube {
+    margin-top: 0px;
+    margin-bottom: 20px;
+   
+  }
+  .audience-text h2 {
+    font-size: 2rem;
+  }
+      .job-video video{
+        max-width: 90%;
+      }
+      .carousel-wrapper{
+  width: 80%;
+}
+    }
+
+
+   
+
+
+    @media (max-width: 768px) {
+  
+  .about-text, .about-video {
+    transform: none !important;
+  }
+
+  .about-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-text p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .about-video video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .course-btn {
+    flex: 1 1 45%;
+    margin: 5px;
+  }
+  .card {
+    width: 90%;
+    max-width: 300px;
+  }
+.info-section h2 {
+    font-size: 1.8rem;
+  }
+  .video-wrapper video {
+    width: 100%;
+  }
+  /* .info-slider-track img {
+    max-width: 100px;
+    height: 100px;
+  } */
+  .info-slider{
+    max-width: 95%;
+  }
+
+   .facilities-overlay h2 {
+    font-size: 2rem;
+  }
+  .facility-card {
+    padding: 20px;
+  }
+  .facility-card img {
+    width: 55px;
+    height: 55px;
+  }
+ .enquiry-text h2 {
+  font-size: 2.1rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.enquiry-text h2 span {
+  color: #fff44f;
+}
+
+.enquiry-text p {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.call-btn {
+  padding: 10px 30px;
+  background: #ffc107;
+  border: none;
+  border-radius: 40px;
+  font-size: 1rem;
+  color: #000;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.call-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+.carousel-wrapper{
+  width: 90%;
+}
+.map-links img{
+  width: 80%;
+}
+
+}
+
+
+ @media (max-width: 480px) {
+  header {
+    padding: 20px 20px;
+  }
+  header img{
+    width: 150px;
+  }
+  .card{
+    width: 360px;
+  }
+  .course-section h2{
+    font-size: 2rem;
+  }
+ 
+        .lg-screen-view-img{
+            display: none;
+        }
+     .mobile-view-img{
+        display: block;
+     }
+     .about-text h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+      .about-text p {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    line-height: 1.5;
+  }
+   .audience-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .image-cube {
+    width: 220px;
+    height: 220px;
+  }
+  .front  { transform: rotateY(  0deg) translateZ(110px); }
+.back   { transform: rotateY(180deg) translateZ(110px); }
+.left   { transform: rotateY( -90deg) translateZ(110px); }
+.right  { transform: rotateY(  90deg) translateZ(110px); }
+
+  .audience-text h2 {
+    font-size: 1.5rem;
+  }
+  .job-video video{
+        max-width: 100%;
+      }
+      .job-video h3{
+        font-size: 1.8rem;
+      }
+      .job-vacancy-section{
+        margin-top: 50px;
+      }
+      .footer-section{
+        padding: 50px 20px 40px;
+      }
+    }
