@@ -48,7 +48,7 @@ $(document).ready(function(){
       }
     });
   }, {
-    threshold: 0.3
+    threshold: 0.1
   });
 
   hiddenSections.forEach(section => {
